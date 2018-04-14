@@ -1,0 +1,1 @@
+/home/jyomu/.config/nvim/init.vim
