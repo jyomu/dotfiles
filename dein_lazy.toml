@@ -1,1 +1,15 @@
-/home/jyomu/.config/nvim/dein_lazy.toml
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+on_i = 1
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+on_i = 1
+
+[[plugins]]
+repo = 'Shougo/deol.nvim'
+
+
