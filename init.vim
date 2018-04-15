@@ -38,9 +38,6 @@ endif
 
 
 
-" Use deoplete.
-let g:deoplete#enable_at_startup = 1
-
 " setting
 syntax enable
 "文字コードをUFT-8に設定
@@ -55,7 +52,9 @@ set autoread
 set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
-
+" clipboard shareing
+set clipboard&
+set clipboard^=unnamedplus
 
 " 見た目系
 " 行番号を表示
