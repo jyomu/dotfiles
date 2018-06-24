@@ -7,6 +7,10 @@ export DOT_REPO=https://github.com/jyomu/dotfiles.git
 export DOT_DIR=~/.dotfiles
 export DOT_SCR=~/.dot
 
+#go-lang settings
+export GOPATH="$HOME/.go"
+export PATH="$GOPATH/bin:$PATH"
+
 if [ -e "${HOME}/.bashrc" ] ; then
   source "${HOME}/.bashrc"
 fi
