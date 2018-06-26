@@ -17,6 +17,6 @@ test -r ~/.bashrc && . ~/.bashrc
 [ -z "$PS1" ] && return
 
 #use fish-shell
-if [ -f $PREFIX/usr/bin/fish ];then
+if which fish > /dev/null;then
 	exec fish
 fi
