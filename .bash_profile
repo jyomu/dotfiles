@@ -10,6 +10,7 @@ export DOT_SCR=~/.dot
 #go-lang settings
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
+export GO15VENDOREXPERIMENT=1
 
 test -r ~/.bashrc && . ~/.bashrc
 
