@@ -11,6 +11,4 @@ export DOT_SCR=~/.dot
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 
-if [ -e "${HOME}/.bashrc" ] ; then
-  source "${HOME}/.bashrc"
-fi
+test -r ~/.bashrc && . ~/.bashrc
