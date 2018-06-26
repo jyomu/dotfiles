@@ -13,4 +13,10 @@ export PATH="$GOPATH/bin:$PATH"
 
 test -r ~/.bashrc && . ~/.bashrc
 
-exec fish
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+#use fish-shell
+if [ -f /usr/bin/fish ];then
+	exec fish
+fi
