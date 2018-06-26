@@ -12,3 +12,5 @@ export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 
 test -r ~/.bashrc && . ~/.bashrc
+
+exec fish
