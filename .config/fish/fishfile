@@ -1,9 +1,9 @@
 oh-my-fish/theme-agnoster
 fisherman/await
 re3turn/fish-dot
-fisherman/fzf
 fisherman/get
 fisherman/getopts
 fisherman/last_job_id
+oh-my-fish/plugin-peco
 yoshiori/fish-peco_select_ghq_repository
 fisherman/z
