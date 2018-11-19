@@ -13,6 +13,9 @@ export GOBIN="$GOPATH/bin"
 export PATH="$GOBIN:$PATH"
 export GO15VENDOREXPERIMENT=1
 
+#rustup setting
+export PATH="$HOME/.cargo/bin:$PATH"
+
 test -r ~/.bashrc && . ~/.bashrc
 
 # If not running interactively, don't do anything
@@ -22,3 +25,5 @@ test -r ~/.bashrc && . ~/.bashrc
 if which fish &> /dev/null;then
 	exec fish
 fi
+
+
