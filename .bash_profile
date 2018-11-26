@@ -16,6 +16,9 @@ export GO15VENDOREXPERIMENT=1
 #rustup setting
 export PATH="$HOME/.cargo/bin:$PATH"
 
+#python setting
+export PATH="$HOME/.local/bin:$PATH"
+
 test -r ~/.bashrc && . ~/.bashrc
 
 # If not running interactively, don't do anything
