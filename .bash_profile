@@ -21,6 +21,9 @@ export PATH="$HOME/.local/bin:$PATH"
 
 test -r ~/.bashrc && . ~/.bashrc
 
+#npm global dir setting
+export PATH=~/.npm-global/bin:$PATH
+
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
