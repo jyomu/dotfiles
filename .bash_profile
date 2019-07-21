@@ -27,9 +27,5 @@ export PATH=~/.npm-global/bin:$PATH
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
-#use fish-shell
-if which fish &> /dev/null;then
-	exec fish
-fi
 
 

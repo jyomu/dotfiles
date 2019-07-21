@@ -2,3 +2,4 @@
 .config/nvim/dein.toml,.config/nvim/dein.toml
 .config/nvim/init.vim,.config/nvim/init.vim
 .bash_profile,.bash_profile
+.bashrc,.bashrc
