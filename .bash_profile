@@ -1,3 +1,6 @@
+#keymap
+localectl set-x11-keymap jp
+
 #xdg
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
