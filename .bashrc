@@ -20,6 +20,7 @@ if [ -z "$ENV_DEFINED" ]; then
 	export GO15VENDOREXPERIMENT=1
 
 	#rustup setting
+	export RUST_BACKTRACE=1
 	export PATH="$HOME/.cargo/bin:$PATH"
 
 	#python setting
