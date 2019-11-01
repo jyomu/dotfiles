@@ -27,6 +27,10 @@ if [ -z "$ENV_DEFINED" ]; then
 
 	#npm global dir setting
 	export PATH=~/.npm-global/bin:$PATH
+
+	#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+	export SDKMAN_DIR="/home/jyomu/.sdkman"
+	[[ -s "/home/jyomu/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jyomu/.sdkman/bin/sdkman-init.sh"
 fi
 
 #bash settings
@@ -37,7 +41,8 @@ PS1='[\u@\h \W]\$ '
 [[ $- != *i* ]] && return
 
 #use fish-shell
-if (which fish &> /dev/null;) && [ -z "$FISH_IS_LAUNCHED" ];then
-	export FISH_IS_LAUNCHED=true
-	exec fish
-fi
+# if (which fish &> /dev/null;) && [ -z "$FISH_IS_LAUNCHED" ];then
+# 	export FISH_IS_LAUNCHED=true
+# 	exec fish
+# fi
+
